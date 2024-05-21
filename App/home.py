@@ -208,6 +208,8 @@ with col4:
 
 #####################
 st.markdown('''
+## English Proficiency
+txt2('LinkedIn', 'https://drive.google.com/file/d/1JO1H_XG96m5D3Qn8vXkDh1aFC1qR3RkU/view?usp=sharing')
 ## Social Media
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/priyonoadelia/')
