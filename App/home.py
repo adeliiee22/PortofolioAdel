@@ -94,7 +94,7 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Bachelor Degree in Computer Science**, *Universitas Gadjah Mada*, Indonesia','*2022-Present*')
+txt('**Bachelor Degree in Computer Science**, *UGM*, Indonesia','*2022-Present*')
 st.markdown('''
 - GPA: `3.76`
 - Elective Courses:  `Genetic Algorithm, Big Data Analytics, Big Data Architecture, DataCenter Development, Digital Image Processing`
@@ -124,7 +124,7 @@ st.markdown('''
 - Delivered data-driven strategic blueprints and impact analyses, providing stakeholders with valuable insights to guide strategic decision-making processes.
 ''')
 
-txt('**Staff, Data Mining and Artificial Intelligence**, KOMATIKUGM, UGM',
+txt('**Staff, Data Mining and Artificial Intelligence**, KOMATIK, UGM',
 '2023-2024')
 st.markdown('''
 - Built and deployed predictive models and algorithms across diverse datasets, driving improved data
