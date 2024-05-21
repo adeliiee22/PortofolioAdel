@@ -151,21 +151,21 @@ col1, col2, col3, col4= st.columns(4)
 col5, col6, col7, col8= st.columns(4)
 
 with col1:
-    st.image("dokum/1.jpg", use_column_width=True)
+    st.image("App/dokum/1.jpg", use_column_width=True)
 with col2:
-    st.image("dokum/2.jpg", use_column_width=True)
+    st.image("App/dokum/2.jpg", use_column_width=True)
 with col3:
-    st.image("dokum/3.jpg", use_column_width=True)
+    st.image("App/dokum/3.jpg", use_column_width=True)
 with col4:
-    st.image("dokum/4.jpg", use_column_width=True)
+    st.image("App/dokum/4.jpg", use_column_width=True)
 with col5:
-    st.image("dokum/5.jpg", use_column_width=True)
+    st.image("App/dokum/5.jpg", use_column_width=True)
 with col6:
-    st.image("dokum/6.jpg", use_column_width=True)
+    st.image("App/dokum/6.jpg", use_column_width=True)
 with col7:
-    st.image("dokum/7.jpg", use_column_width=True)
+    st.image("App/dokum/7.jpg", use_column_width=True)
 with col8:
-    st.image("dokum/8.jpg", use_column_width=True)
+    st.image("App/dokum/8.jpg", use_column_width=True)
 
 
 #####################
@@ -190,19 +190,19 @@ col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
 
 with col1:
-    st.image("image/LSTM.jpg", use_column_width=True)
+    st.image("App/image/LSTM.jpg", use_column_width=True)
     st.markdown("[Stock Analysis](https://github.com/adeliiee22/Projects/tree/main/Stocks%20Analysis%20LSTM)", unsafe_allow_html=True)
 
 with col2:
-    st.image("image/telecom.jpg", use_column_width=True)
+    st.image("App/image/telecom.jpg", use_column_width=True)
     st.markdown("[Churn](https://github.com/adeliiee22/Projects/tree/main/Telecom%20Churn)", unsafe_allow_html=True)
 
 with col3:
-    st.image("image/Chest.jpg", use_column_width=True)
+    st.image("App/image/Chest.jpg", use_column_width=True)
     st.markdown("[Chest Cancer Detection](https://github.com/adeliiee22/Projects/tree/main/Chest%20Cancer%20Detection/Notebook)", unsafe_allow_html=True)
 
 with col4:
-    st.image("image/perpus.jpg", use_column_width=True)
+    st.image("App/image/perpus.jpg", use_column_width=True)
     st.markdown("[Perpus UIN WebApp](http://158.178.244.40/)", unsafe_allow_html=True)
 
 
