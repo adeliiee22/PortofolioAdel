@@ -202,7 +202,7 @@ with col3:
     st.markdown("[Chest Cancer Detection](https://github.com/adeliiee22/Projects/tree/main/Chest%20Cancer%20Detection/Notebook)", unsafe_allow_html=True)
 
 with col4:
-    st.image("App/image/perpus.jpg", use_column_width=True)
+    st.image("App/image/Perpus.jpg", use_column_width=True)
     st.markdown("[Perpus UIN WebApp](http://158.178.244.40/)", unsafe_allow_html=True)
 
 
