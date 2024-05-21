@@ -220,4 +220,4 @@ txt2('Email', 'priyonoadelia@gmail.com')
 st.markdown('''
 ## Certification
 ''')
-txt2('IELTS', 'https://bit.ly/IELTSDewiAdelia')
+txt2('IELTS: 7.5', 'https://bit.ly/IELTSDewiAdelia')
