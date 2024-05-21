@@ -11,9 +11,8 @@ import streamlit as st
 import streamlit as st
 
 st.write('''
-# **Dewi Adelia Priyono** :fairy:
-txt2('LinkedIn', 'https://www.linkedin.com/in/priyonoadelia/')
-''') 
+# **[Dewi Adelia Priyono](https://www.linkedin.com/in/priyonoadelia/)** :fairy:
+''')
 st.write('''
 #### *Hi I'm Adel :wave:*
 ''')  
