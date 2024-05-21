@@ -49,6 +49,9 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
       </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#certification">Certification</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -208,9 +211,13 @@ with col4:
 
 #####################
 st.markdown('''
-## English Proficiency
-txt2('LinkedIn', 'https://drive.google.com/file/d/1JO1H_XG96m5D3Qn8vXkDh1aFC1qR3RkU/view?usp=sharing')
 ## Social Media
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/priyonoadelia/')
 txt2('Email', 'priyonoadelia@gmail.com')
+
+#####################
+st.markdown('''
+## Certification
+''')
+txt2('IELTS', 'https://drive.google.com/file/d/1JO1H_XG96m5D3Qn8vXkDh1aFC1qR3RkU/view?usp=sharing')
