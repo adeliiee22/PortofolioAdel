@@ -189,8 +189,8 @@ st.markdown('''
 ## Projects''')
 
 # Creating three columns for the images and titles
-col1, col2 = st.columns(2)
-col3, col4 = st.columns(2)
+col1, col2, col3 = st.columns(3)
+col4, col5 = st.columns(2)
 
 with col1:
     st.image("App/image/LSTM.jpg", use_column_width=True)
@@ -208,7 +208,11 @@ with col4:
     st.image("App/image/Perpus.jpg", use_column_width=True)
     st.markdown("[Perpus UIN WebApp](http://158.178.244.40/)", unsafe_allow_html=True)
 
+with col5:
+    st.image("App/image/Fraud.jpg", use_column_width=True)
+    st.markdown("[Credit Card Fraud Detection](https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook)", unsafe_allow_html=True)
 
+https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook
 #####################
 st.markdown('''
 ## Social Media
