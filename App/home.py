@@ -212,7 +212,6 @@ with col5:
     st.image("App/image/Fraud.jpg", use_column_width=True)
     st.markdown("[Credit Card Fraud Detection](https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook)", unsafe_allow_html=True)
 
-https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook
 #####################
 st.markdown('''
 ## Social Media
