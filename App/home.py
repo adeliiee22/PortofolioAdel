@@ -96,7 +96,7 @@ st.markdown('''
 
 txt('**Bachelor Degree in Computer Science**, *UGM*, Indonesia','*2022-Present*')
 st.markdown('''
-- GPA: `3.76`
+- GPA: `3.56`
 - Elective Courses:  `Genetic Algorithm, Big Data Analytics, Big Data Architecture, DataCenter Development, Digital Image Processing`
 - Competitions: `UGM Gemastik Data Mining Delegate 2023, UGM Satria Data Big Data Challenge Delegate 2023, DataQuest Universitas Airlangga 2023, DSW Telkomsel 2023`
 - Awards: `Talent Scouting Academy Digital Talent Scholarship (TSA DTS) - Oracle Cloud by KOMINFO`    
