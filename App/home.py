@@ -16,7 +16,7 @@ st.write('''
 st.write('''
 #### *Hi I'm Adel :wave:*
 ''')  
-st.write("I am a computer science undergraduate student at UGM with experience in the tech, reinsurance, and consulting sectors. I have a strong foundation in data mining, big data processing, and data pipelining, with hands-on experience in Python and SQL, as well as working with Apache Hadoop and Apache Spark. Additionally, I have some experience with cloud computing tools such as Oracle, Google Cloud and AWS. I am continually seeking opportunities to broaden my horizons and enhance my skills before embarking on my professional career upon graduation.")
+st.write("I am a computer science undergraduate student at UGM with experience in the tech, reinsurance, and consulting sectors. I have a strong foundation in data mining, big data processing, and data pipelining, with hands-on experience in Python and SQL, as well as working with Hadoop and Spark. Additionally, I have some experience with cloud computing and database integration tools such as Oracle, Firebase and AWS. I am continually seeking opportunities to broaden my horizons and enhance my skills before embarking on my professional career upon graduation.")
 
 #####################
 # Navigation
