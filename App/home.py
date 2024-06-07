@@ -190,7 +190,7 @@ st.markdown('''
 
 # Creating three columns for the images and titles
 col1, col2, col3 = st.columns(3)
-col4, col5 = st.columns(2)
+col4, col5, col6 = st.columns(3)
 
 with col1:
     st.image("App/image/LSTM.jpg", use_column_width=True)
@@ -211,6 +211,10 @@ with col4:
 with col5:
     st.image("App/image/Fraud.jpg", use_column_width=True)
     st.markdown("[Credit Card Fraud Detection](https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook)", unsafe_allow_html=True)
+
+with col6:
+    st.image("App/image/EHR.jpg", use_column_width=True)
+    st.markdown("[REKMED EHR Mobile App](https://github.com/adeliiee22/EHR-REKMED)", unsafe_allow_html=True)
 
 #####################
 st.markdown('''
