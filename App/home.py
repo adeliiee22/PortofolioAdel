@@ -182,7 +182,7 @@ txt3('Machine Learning', '`scikit-learn`')
 txt3('Deep Learning', '`TensorFlow`')
 txt3('Web development', '`HTML`, `CSS`')
 txt3('Model deployment', '`streamlit`')
-txt3('Cloud environment', '`Oracle`, `AWS`, `Google Cloud`')
+txt3('Cloud environment', '`Oracle`, `AWS`, `Firebase`')
 
 #####################
 st.markdown('''
