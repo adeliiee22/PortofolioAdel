@@ -223,8 +223,3 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/priyonoadelia/')
 txt2('Email', 'priyonoadelia@gmail.com')
 
-#####################
-st.markdown('''
-## Certification
-''')
-txt2('IELTS: 7.5')
