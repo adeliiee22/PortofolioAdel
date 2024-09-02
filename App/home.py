@@ -219,7 +219,7 @@ elif page == "Projects":
         st.image("App/image/Frequent.jpg", use_column_width=True)
         st.markdown("[Frequent Sequence Mining](https://github.com/adeliiee22/Projects/tree/main/Frequent%20Sequence%20Mining)", unsafe_allow_html=True)
         st.markdown("""
-        - Used PySpark's Apriori algorithm to mine frequent patterns from a mushroom dataset, generating association rules with 95% to 100% confidence.
+        - Utilized PySpark to generate all frequent itemsets from a dataset with a minimum support threshold of 70%, ensuring comprehensive identification of frequent patterns.
         - Applied the Apriori algorithm in PySpark on mushroom data, identifying association rules with confidence levels ranging from 95% to 100%.
         """)
 
