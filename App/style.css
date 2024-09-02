@@ -91,7 +91,7 @@ section:nth-of-type(odd) {
 }
 
 section:nth-of-type(even) {
-    background-color: #ffffff; /* White background for contrast */
+    background-color: #c6c3ea; /* White background for contrast */
 }
 
 /* Columns */
