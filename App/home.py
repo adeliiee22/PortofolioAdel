@@ -17,6 +17,28 @@ if page == "Home":
     #### *Hi I'm Adel :wave:*
     ''')  
     st.write("A computer science student at UGM with experience in tech, reinsurance, and consulting. Skilled in data mining, big data processing, and data pipelining using Python, SQL, Hadoop, and Spark. Experienced with cloud computing and database tools like Oracle, Firebase, and AWS. Eager to expand my knowledge and skills before starting my professional career.")
+
+    # Creating three columns for the images and titles
+    col1, col2, col3, col4= st.columns(4)
+    col5, col6, col7, col8= st.columns(4)
+
+    with col1:
+          st.image("App/dokum/1.jpg", use_column_width=True)
+    with col2:
+          st.image("App/dokum/2.jpg", use_column_width=True)
+    with col3:
+          st.image("App/dokum/3.jpg", use_column_width=True)
+    with col4:
+          st.image("App/dokum/4.jpg", use_column_width=True)
+    with col5:
+          st.image("App/dokum/5.jpg", use_column_width=True)
+    with col6:
+          st.image("App/dokum/6.jpg", use_column_width=True)
+    with col7:
+          st.image("App/dokum/7.jpg", use_column_width=True)
+    with col8:
+          st.image("App/dokum/8.jpg", use_column_width=True)  
+
     
 elif page == "Education":
     # Education Page
