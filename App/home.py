@@ -52,7 +52,7 @@ elif page == "Education and Awards":
     """, unsafe_allow_html=True)
 
     # GPA
-    st.markdown("- GPA: `3.76`")
+    st.markdown("- GPA: `3.57`")
 
     # Create columns for Elective Courses
     col1, col2 = st.columns(2)
