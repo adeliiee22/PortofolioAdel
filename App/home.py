@@ -52,7 +52,7 @@ elif page == "Education and Awards":
     """, unsafe_allow_html=True)
 
     # GPA
-    st.markdown("- GPA: `3.57`")
+    st.markdown("- GPA: `3.76`")
 
     # Create columns for Elective Courses
     col1, col2 = st.columns(2)
@@ -217,7 +217,7 @@ elif page == "Projects":
 
     with col7:
         st.image("App/image/Frequent.jpg", use_column_width=True)
-        st.markdown("[REKMED EHR Mobile App](https://github.com/adeliiee22/Projects/tree/main/Frequent%20Sequence%20Mining)", unsafe_allow_html=True)
+        st.markdown("[Frequent Sequence Mining](https://github.com/adeliiee22/Projects/tree/main/Frequent%20Sequence%20Mining)", unsafe_allow_html=True)
         st.markdown("""
         - Used PySpark's Apriori algorithm to mine frequent patterns from a mushroom dataset, generating association rules with 95% to 100% confidence.
         - Applied the Apriori algorithm in PySpark on mushroom data, identifying association rules with confidence levels ranging from 95% to 100%.
