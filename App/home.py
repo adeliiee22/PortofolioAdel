@@ -81,6 +81,16 @@ elif page == "Education and Awards":
     - Best Participant Talent Scouting Academy Digital Talent Scholarship (TSA DTS) - Oracle Cloud 2024 by KOMINFO  
     """)
 
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("App/Award/1.jpg", use_column_width=True)
+    with col2:
+        st.image("App/Award/2.jpg", use_column_width=True)
+    with col3:
+        st.image("App/Award/3.jpg", use_column_width=True)
+
+
+
 elif page == "Work Experience":
     # Work Experience Page
     st.markdown('## Work Experience')
@@ -150,32 +160,59 @@ elif page == "Projects":
     st.markdown('## Projects')
 
     # Creating columns for the project images and titles
-    col1, col2, col3 = st.columns(3)
-    col4, col5, col6 = st.columns(3)
+    col1, col2 = st.columns(2)
+    col3, col4 = st.columns(2)
+    col5, col6 = st.columns(2)
 
     with col1:
-        st.image("App/image/LSTM.jpg", use_column_width=True)
-        st.markdown("[Stock Analysis](https://github.com/adeliiee22/Projects/tree/main/Stocks%20Analysis%20LSTM)", unsafe_allow_html=True)
+      st.image("App/image/LSTM.jpg", use_column_width=True)
+      st.markdown("[Stock Analysis](https://github.com/adeliiee22/Projects/tree/main/Stocks%20Analysis%20LSTM)", unsafe_allow_html=True)
+      st.markdown("""
+      - Utilized the Long Short-Term Memory (LSTM) technique to predict stock price trends, training the model with data sourced from Yahoo Finance to ensure accurate forecasts.
+      - Achieved a Mean Absolute Percentage Error (MAPE) of 4.62%, using the LSTM model. Significantly outperforming the 50-day and 200-day moving averages, which had MAPEs of 10.87%, and 16.73%, respectively.
+      """)
+
 
     with col2:
         st.image("App/image/telecom.jpg", use_column_width=True)
         st.markdown("[Churn](https://github.com/adeliiee22/Projects/tree/main/Telecom%20Churn)", unsafe_allow_html=True)
+        st.markdown("""
+        - Developed a predictive model using logistic regression in PySpark to analyze and predict customer churn for a telecommunications company.
+        - Achieved an Area Under the Receiver Operating Characteristic (ROC) curve of 0.728 and attained an accuracy of 64.83% in correctly predicting customer churn, demonstrating the model's effectiveness in real-world scenarios..
+        """)
 
     with col3:
         st.image("App/image/Chest.jpg", use_column_width=True)
         st.markdown("[Chest Cancer Detection](https://github.com/adeliiee22/Projects/tree/main/Chest%20Cancer%20Detection/Notebook)", unsafe_allow_html=True)
+        st.markdown("""
+        - Utilized the Kaggle Chest CT-Scan Dataset to detect chest cancer from CT scan images using Functional API and Transfer Learning techniques.
+        - Employed MobileNetV2 as the base model to enhance learning efficiency and accuracy in identifying cancerous tissues.
+        - Achieved a categorical accuracy of 90.55% with a training loss of 0.3026, and validated the model with a loss of 0.4703, demonstrating high predictive accuracy and model robustness.
+        """)
 
     with col4:
         st.image("App/image/Perpus.jpg", use_column_width=True)
         st.markdown("[Perpus UIN WebApp](http://158.178.244.40/)", unsafe_allow_html=True)
+        st.markdown("""
+        - Developed a library management web application using the Laravel framework, hosted on an always-free VM instance on Oracle Cloud to ensure cost-effective scalability.
+        - Integrated the application with Oracle Autonomous Database, leveraging its advanced features for reliable data management and high availability.
+        """)
 
     with col5:
         st.image("App/image/Fraud.jpg", use_column_width=True)
         st.markdown("[Credit Card Fraud Detection](https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook)", unsafe_allow_html=True)
+        st.markdown("""
+        - Created a credit card fraud detection implementation using PySpark, leveraging StandardScaler and VectorAssembler to preprocess data for machine learning.
+        - Achieved a high Area Under ROC (0.973) and an accuracy of 99.92%, demonstrating strong performance in distinguishing between fraud and non-fraud transactions.
+        """)
 
     with col6:
         st.image("App/image/EHR.jpg", use_column_width=True)
         st.markdown("[REKMED EHR Mobile App](https://github.com/adeliiee22/EHR-REKMED)", unsafe_allow_html=True)
+        st.markdown("""
+        - Engineered effective methods for storing and managing medical data by creating a fully functional mobile app using the Flutter framework, emphasizing on product development.
+        - Utilized Firebase for authentication, Firestore for database management, and real-time data synchronization to provide secure and efficient handling of medical information within the app.
+        """)
 
 elif page == "Contact":
     # Contact Page
