@@ -45,11 +45,10 @@ img {
 nav {
     background-color: #8e44ad; /* Vivid purple background */
     padding: 1rem;
-    color: #fff; /* White text color */
 }
 
 .navbar-brand {
-    color: #fff; /* White text color */
+    color: #000; /* Black text color for brand */
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -59,7 +58,7 @@ nav {
 }
 
 .nav-link {
-    color: #fff; /* White text color */
+    color: #000; /* Black text color for links */
     padding: 0.5rem 1rem;
     display: block;
     text-decoration: none;
@@ -68,6 +67,7 @@ nav {
 .nav-link:hover {
     background-color: #d14f8d; /* Bright pink/purple on hover */
     border-radius: 4px;
+    color: #000; /* Black text color on hover */
 }
 
 /* Footer */
@@ -87,11 +87,11 @@ section {
 }
 
 section:nth-of-type(odd) {
-    background-color: #fffcde; /* Light purple background */
+    background-color: #fffcde; /* Light yellow background */
 }
 
 section:nth-of-type(even) {
-    background-color: #c6c3ea; /* White background for contrast */
+    background-color: #c6c3ea; /* Light purple background */
 }
 
 /* Columns */
