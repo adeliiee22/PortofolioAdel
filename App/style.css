@@ -87,7 +87,7 @@ section {
 }
 
 section:nth-of-type(odd) {
-    background-color: #ddc6ec; /* Light purple background */
+    background-color: #323593; /* Light purple background */
 }
 
 section:nth-of-type(even) {
