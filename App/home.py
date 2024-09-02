@@ -52,7 +52,7 @@ elif page == "Education and Awards":
     """, unsafe_allow_html=True)
 
     # GPA
-    st.markdown("- GPA: `3.57`")
+    st.markdown("- GPA: `3.76`")
 
     # Create columns for Elective Courses
     col1, col2 = st.columns(2)
@@ -189,4 +189,4 @@ elif page == "Contact":
             st.markdown(b)
 
     txt2("LinkedIn", "[Dewi Adelia Priyono](https://www.linkedin.com/in/priyonoadelia/)")
-    txt2("Email", "dewi.adelia.priyono@gmail.com")
+    txt2("Email", "dewiadeliapriyono@mail.ugm.ac.id")
