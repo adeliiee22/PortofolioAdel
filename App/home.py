@@ -40,9 +40,9 @@ if page == "Home":
           st.image("App/dokum/8.jpg", use_column_width=True)  
 
     
-elif page == "Education":
+elif page == "Education and Awards":
     # Education Page
-    st.markdown('## Education')
+    st.markdown('## Education and Awards')
 
     # Degree information
     st.markdown("""
