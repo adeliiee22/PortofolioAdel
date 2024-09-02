@@ -1,25 +1,117 @@
-ul {
-    padding-left: 1.5rem;
-  }
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e1ff; /* Cream background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #8e44ad; /* Bold purple link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+h1, h5 {
+    color: #8e44ad; /* Bold purple text color */
+}
 
 h1 {
-    text-align:center;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 h5 {
-    text-align:center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
+/* Image Styles */
 img {
-    margin-left: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1rem;
 }
 
-#MainMenu {
-    visibility: hidden;
+/* Navigation Menu */
+nav {
+    background-color: #8e44ad; /* Vivid purple background */
+    padding: 1rem;
+    color: #fff; /* White text color */
 }
+
+.navbar-brand {
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: #fff; /* White text color */
+    padding: 0.5rem 1rem;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #d14f8d; /* Bright pink/purple on hover */
+    border-radius: 4px;
+}
+
+/* Footer */
 footer {
     visibility: hidden;
 }
+
+/* Header */
 header {
     visibility: hidden;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 1.5rem;
+}
+
+section:nth-of-type(odd) {
+    background-color: #ddc6ec; /* Cream background */
+}
+
+section:nth-of-type(even) {
+    background-color: #ffffff; /* White background for contrast */
+}
+
+/* Columns */
+.stColumns {
+    margin: 1rem 0;
+}
+
+.stColumn {
+    padding: 0.5rem;
+}
+
+/* Button Styles */
+button {
+    background-color: #8e44ad; /* Vivid purple button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #d14f8d; /* Bright pink/purple on hover */
 }
