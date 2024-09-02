@@ -1,63 +1,55 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9; /* Light grey background for a clean look */
-    color: #333; /* Dark grey text color for better readability */
+    background-color: #f0e1ff; /* Cream background */
+    color: #000; /* Black text color */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
-/* Links */
 a {
-    color: #ff5722; /* Vibrant orange link color */
+    color: #8e44ad; /* Bold purple link color */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #e64a19; /* Darker orange on hover */
 }
 
 /* Header Styles */
 h1, h5 {
-    color: #333; /* Dark grey text color for headers */
+    color: #8e44ad; /* Bold purple text color */
 }
 
 h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    font-weight: bold;
 }
 
 h5 {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    font-weight: 600;
 }
 
 /* Image Styles */
 img {
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     margin: 1rem;
-    max-width: 100%; /* Responsive image */
-    height: auto;
 }
 
 /* Navigation Menu */
 nav {
-    background-color: #00bcd4; /* Bright cyan background */
+    background-color: #8e44ad; /* Vivid purple background */
     padding: 1rem;
     color: #fff; /* White text color */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .navbar-brand {
     color: #fff; /* White text color */
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -70,36 +62,31 @@ nav {
     padding: 0.5rem 1rem;
     display: block;
     text-decoration: none;
-    border-radius: 4px;
 }
 
 .nav-link:hover {
-    background-color: #ff5722; /* Vibrant orange on hover */
+    background-color: #d14f8d; /* Bright pink/purple on hover */
+    border-radius: 4px;
 }
 
 /* Footer */
 footer {
-    background-color: #333; /* Dark background for footer */
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 1rem;
+    visibility: hidden;
 }
 
 /* Header */
 header {
-    background-color: #00bcd4; /* Matching header background */
-    color: #fff; /* White text color */
-    padding: 1rem;
-    text-align: center;
+    visibility: hidden;
 }
 
 /* Section Styles */
 section {
     padding: 2rem 1.5rem;
+    color: #000; /* Black text color for section */
 }
 
 section:nth-of-type(odd) {
-    background-color: #e1bee7; /* Light purple background */
+    background-color: #ddc6ec; /* Cream background */
 }
 
 section:nth-of-type(even) {
@@ -113,25 +100,20 @@ section:nth-of-type(even) {
 
 .stColumn {
     padding: 0.5rem;
+    color: #000; /* Black text color for columns */
 }
 
 /* Button Styles */
 button {
-    background-color: #ff5722; /* Vibrant orange button color */
+    background-color: #8e44ad; /* Vivid purple button color */
     color: #fff; /* White text color */
     border: none;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #e64a19; /* Darker orange on hover */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
-}
-
-button:active {
-    transform: scale(0.95); /* Slightly shrink button on click */
+    background-color: #d14f8d; /* Bright pink/purple on hover */
 }
