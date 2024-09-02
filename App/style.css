@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0e1ff; /* Cream background */
-    color: #333;
+    color: #000; /* Black text color */
     margin: 0;
     padding: 0;
 }
@@ -82,6 +82,7 @@ header {
 /* Section Styles */
 section {
     padding: 2rem 1.5rem;
+    color: #000; /* Black text color for section */
 }
 
 section:nth-of-type(odd) {
@@ -99,6 +100,7 @@ section:nth-of-type(even) {
 
 .stColumn {
     padding: 0.5rem;
+    color: #000; /* Black text color for columns */
 }
 
 /* Button Styles */
