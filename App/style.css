@@ -7,8 +7,9 @@ body {
     padding: 0;
 }
 
+/* Links */
 a {
-    color: #8e44ad; /* Bold purple link color */
+    color: #000; /* Black link color */
     text-decoration: none;
 }
 
@@ -18,7 +19,7 @@ a:hover {
 
 /* Header Styles */
 h1, h5 {
-    color: #8e44ad; /* Bold purple text color */
+    color: #000; /* Black text color */
 }
 
 h1 {
@@ -82,11 +83,11 @@ header {
 /* Section Styles */
 section {
     padding: 2rem 1.5rem;
-    color: #000; /* Black text color for section */
+    color: #000; /* Black text color */
 }
 
 section:nth-of-type(odd) {
-    background-color: #ddc6ec; /* Cream background */
+    background-color: #ddc6ec; /* Light purple background */
 }
 
 section:nth-of-type(even) {
@@ -100,7 +101,7 @@ section:nth-of-type(even) {
 
 .stColumn {
     padding: 0.5rem;
-    color: #000; /* Black text color for columns */
+    color: #000; /* Black text color */
 }
 
 /* Button Styles */
