@@ -1,15 +1,14 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0e1ff; /* Cream background */
-    color: #000; /* Black text color */
+    background-color: #2C3E50; /* Dark Soft Blue */
+    color: #ECF0F1; /* Light Cream */
     margin: 0;
     padding: 0;
 }
 
-/* Links */
 a {
-    color: #000; /* Black link color */
+    color: #3498DB; /* Soft Blue */
     text-decoration: none;
 }
 
@@ -19,7 +18,7 @@ a:hover {
 
 /* Header Styles */
 h1, h5 {
-    color: #000; /* Black text color */
+    color: #ECF0F1; /* Light Cream */
 }
 
 h1 {
@@ -42,32 +41,28 @@ img {
 }
 
 /* Navigation Menu */
+#MainMenu {
+    visibility: hidden;
+}
+
 nav {
-    background-color: #8e44ad; /* Vivid purple background */
+    background-color: #34495E; /* Darker Blue */
     padding: 1rem;
 }
 
 .navbar-brand {
-    color: #e7e8da; /* Black text color for brand */
+    color: #ECF0F1; /* Light Cream */
     font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.navbar-nav .nav-item {
-    margin: 0;
 }
 
 .nav-link {
-    color: #000; /* Black text color for links */
+    color: #ECF0F1; /* Light Cream */
     padding: 0.5rem 1rem;
-    display: block;
-    text-decoration: none;
 }
 
 .nav-link:hover {
-    background-color: #d14f8d; /* Bright pink/purple on hover */
+    background-color: #2C3E50; /* Dark Soft Blue */
     border-radius: 4px;
-    color: #000; /* Black text color on hover */
 }
 
 /* Footer */
@@ -83,15 +78,14 @@ header {
 /* Section Styles */
 section {
     padding: 2rem 1.5rem;
-    color: #000; /* Black text color */
 }
 
 section:nth-of-type(odd) {
-    background-color: #fffcde; /* Light yellow background */
+    background-color: #a0ade7; /* Darker Blue */
 }
 
 section:nth-of-type(even) {
-    background-color: #c6c3ea; /* Light purple background */
+    background-color: #f6f2f7; /* Dark Soft Blue */
 }
 
 /* Columns */
@@ -101,13 +95,12 @@ section:nth-of-type(even) {
 
 .stColumn {
     padding: 0.5rem;
-    color: #000; /* Black text color */
 }
 
 /* Button Styles */
 button {
-    background-color: #8e44ad; /* Vivid purple button color */
-    color: #110b4f; /* White text color */
+    background-color: #3498DB; /* Soft Blue */
+    color: #ECF0F1; /* Light Cream */
     border: none;
     border-radius: 4px;
     padding: 0.5rem 1rem;
@@ -116,5 +109,5 @@ button {
 }
 
 button:hover {
-    background-color: #d14f8d; /* Bright pink/purple on hover */
+    background-color: #2980B9; /* Slightly Darker Blue */
 }
