@@ -265,4 +265,4 @@ elif page == "Contact":
             st.markdown(b)
 
     txt2("LinkedIn", "[Dewi Adelia Priyono](https://www.linkedin.com/in/priyonoadelia/)")
-    txt2("Email", "dewiadeliapriyono@mail.ugm.ac.id")
+    txt2("Email", "priyonoadelia@gmail.com")
