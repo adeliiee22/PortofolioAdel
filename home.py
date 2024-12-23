@@ -6,37 +6,49 @@ with open("App/style.css") as f:
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home", "Education and Awards", "Work Experience", "Organization", "Projects", "Contact"])
+page = st.sidebar.selectbox("Go to", ["Home", "Education and Awards", "Work Experience", "Organization", "Projects", "Contact"])
 
 if page == "Home":
     # Home Page
-    st.write('''
-    # **[Dewi Adelia Priyono](https://www.linkedin.com/in/priyonoadelia/)** :fairy:
-    ''')
-    st.write('''
-    #### *Hi I'm Adel :wave:*
-    ''')  
-    st.write("A computer science student at UGM with experience in tech, reinsurance, and consulting. Skilled in data mining, big data processing, and data pipelining using Python, SQL, Hadoop, and Spark. Experienced with cloud computing and database tools like Oracle, Firebase, and AWS. Eager to expand my knowledge and skills before starting my professional career.")
+    import streamlit as st
+
+    import streamlit as st
+
+    st.markdown('''<h1 style="text-align: center;">
+        <strong><a href="https://www.linkedin.com/in/priyonoadelia/" target="_blank">Dewi Adelia Priyono</a></strong> 🧚
+        </h1>''', unsafe_allow_html=True)
+
+      
+    st.write("A Computer Science student at Universitas Gadjah Mada with a passion for transforming raw data into actionable insights. Skilled in Python, Spark, and SQL, with experience in cloud database platforms such as MongoDB, Oracle, Alibaba Cloud and Firebase. Specializes in tackling big data challenges, optimizing workflows, and creating scalable solutions to enhance business operations. Always eager to learn more and grow!")
 
     # Creating three columns for the images and titles
-    col1, col2, col3, col4 = st.columns(4)
-    col5, col6, col7, col8 = st.columns(4)
+    col11, col12, col13, col14 = st.columns(4)
+    col15, col16, col17, col18 = st.columns(4)
+    col19, col20, col21, col22 = st.columns(4)
 
-    with col1:
+    with col11:
+        st.image("App/dokum/11.jpg", use_column_width=True)
+    with col12:
+        st.image("App/dokum/12.jpg", use_column_width=True)
+    with col13:
+        st.image("App/dokum/13.jpg", use_column_width=True)
+    with col14:
+        st.image("App/dokum/14.jpg", use_column_width=True)
+    with col15:
         st.image("App/dokum/1.jpg", use_column_width=True)
-    with col2:
+    with col16:
         st.image("App/dokum/2.jpg", use_column_width=True)
-    with col3:
+    with col17:
         st.image("App/dokum/3.jpg", use_column_width=True)
-    with col4:
+    with col18:
         st.image("App/dokum/4.jpg", use_column_width=True)
-    with col5:
+    with col19:
         st.image("App/dokum/5.jpg", use_column_width=True)
-    with col6:
+    with col20:
         st.image("App/dokum/6.jpg", use_column_width=True)
-    with col7:
+    with col21:
         st.image("App/dokum/7.jpg", use_column_width=True)
-    with col8:
+    with col22:
         st.image("App/dokum/8.jpg", use_column_width=True)  
 
 elif page == "Education and Awards":
@@ -68,7 +80,7 @@ elif page == "Education and Awards":
     with col2:
         st.markdown("**  **")
         st.markdown(""" 
-        - DataCenter Development  
+        - Data Center Development  
         - Digital Image Processing
         """)
 
@@ -76,9 +88,10 @@ elif page == "Education and Awards":
 
     # Awards section
     st.markdown("""
-    - Runner Up Internal Case Competition 180DC UGM 2023  
-    - 1st Place APWINC Digital Hackathon 2024  
-    - Best Participant Talent Scouting Academy Digital Talent Scholarship (TSA DTS) - Oracle Cloud 2024 by KOMINFO  
+    - CIMB Niaga Kejar Mimpi Scholarship Awardee 2024  
+    - 1st Place APWINC Digital Hackathon 2024 by South Korea Ministry of Education
+    - Best Participant & Project Talent Scouting Academy Digital Talent Scholarship (TSA DTS) - Oracle Cloud 2024 by KOMINFO 
+    - Runner Up Internal Case Competition 180DC UGM 2023   
     """)
 
     col1, col2, col3 = st.columns(3)
@@ -88,6 +101,15 @@ elif page == "Education and Awards":
         st.image("App/Award/2.jpg", use_column_width=True)
     with col3:
         st.image("App/Award/3.jpg", use_column_width=True)
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("App/Award/21.jpg", use_column_width=True)
+    with col2:
+        st.image("App/Award/22.jpg", use_column_width=True)
+    with col3:
+        st.image("App/Award/23.jpg", use_column_width=True)
+
 
 
 
@@ -102,18 +124,24 @@ elif page == "Work Experience":
         with col2:
             st.markdown(b)
 
-    txt('**Data Engineer Intern**, Ucoal Resources', '*Jul 2024 - Sep 2024*')
+    txt('**Data Engineer Intern**, BFI Finance', '*Sep 2024 - Present*')
     st.markdown('''
-    - Built a robust data pipeline from MongoDB for 50k+ records, including extraction, cleaning, and preparation, to support comprehensive product and data analysis.
-    - Established data connections between a cloud database and Jupyter Notebook using PySpark, and implemented time series prediction models to analyze coal production trends.
-    - Created data transformation formulas in Excel for Power BI dashboards, and handled fraud detection in the hauling system for day-to-day monitoring of coal production.
+    - Developed an automated data pipeline using Luigi and Airflow to extract and process 1B+ financial records for credit risk operations to optimize performance and scalability.
+    - Designed and deployed a data modelling web app with Streamlit, FastAPI, Docker, and Postman to test systems and generate reports, ensuring real-time integration between front-end and back-end systems.
+    - Extracted and transformed large datasets on Alibaba Cloud using SQL and PySpark, handling credit risk and KPI analysis to support daily business and risk management operations.
+    ''')
+    txt('**Data Engineer Intern**, Ucoal Resources', '*Aug 2024 - Sep 2024*')
+    st.markdown('''
+    - Built a robust data pipeline using java from MongoDB, extracting, cleaning, and transforming over 50k records to support comprehensive product and business analysis.
+    - Established seamless data connections between cloud databases and Jupyter Notebooks using PySpark, incorporating time series prediction models to forecast coal production trends and inform product management strategies.
+    - Developed data transformation formulas in Excel to streamline Power BI dashboards, enabling clear data visualization and actionable insights for business and product analysis presentations.
     ''')
 
     txt('**Data Annotator**, KUPU ID', '*Apr 2024 - Jun 2024*')
     st.markdown('''
-    - Led a comprehensive data labeling and verification project for ChatGPT-4, focusing on 500+ video and image datasets.
-    - Verified data quality, completeness, and reliability to enhance model accuracy and performance.
-    - Conducted thorough validation processes to improve data integrity and annotation consistency.
+    - Led a data labeling and verification project for ChatGPT-4, annotating  1K+ video and image datasets to ensure accuracy and completeness, supporting business intelligence efforts.
+    - Improved data integrity and consistency through thorough validation processes, ensuring high-quality results for business decision-making.
+    - Demonstrated strong organizational skills and effective communication in delivering detailed annotation reports to enhance the AI model's performance.
     ''')
 
 elif page == "Organization":
@@ -155,9 +183,11 @@ elif page == "Organization":
     - Championed STEM inclusion by launching impactful initiatives, attracting 20-30 girls monthly to Generation Girl Jogjakarta for the past 1 year.
     ''')
 
-elif page == "Projects":
+elif page == "Projects": 
     # Projects Page
-    st.markdown('## Projects')
+    st.markdown('''<h1 style="text-align: left;">
+        <strong><a href="https://www.linkedin.com/in/priyonoadelia/" target="_blank">Projects</a></strong> 🧚
+        </h1>''', unsafe_allow_html=True)
 
     # Creating columns for the project images and titles
     col1, col2 = st.columns(2)
