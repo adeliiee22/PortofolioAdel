@@ -27,29 +27,29 @@ if page == "Home":
     col19, col20, col21, col22 = st.columns(4)
 
     with col11:
-        st.image("App/dokum/11.jpg", use_column_width=True)
+        st.image("App/dokum/11.jpg", use_container_width=True)
     with col12:
-        st.image("App/dokum/12.jpg", use_column_width=True)
+        st.image("App/dokum/12.jpg", use_container_width=True)
     with col13:
-        st.image("App/dokum/13.jpg", use_column_width=True)
+        st.image("App/dokum/13.jpg", use_container_width=True)
     with col14:
-        st.image("App/dokum/14.jpg", use_column_width=True)
+        st.image("App/dokum/14.jpg", use_container_width=True)
     with col15:
-        st.image("App/dokum/1.jpg", use_column_width=True)
+        st.image("App/dokum/1.jpg", use_container_width=True)
     with col16:
-        st.image("App/dokum/2.jpg", use_column_width=True)
+        st.image("App/dokum/2.jpg", use_container_width=True)
     with col17:
-        st.image("App/dokum/3.jpg", use_column_width=True)
+        st.image("App/dokum/3.jpg", use_container_width=True)
     with col18:
-        st.image("App/dokum/4.jpg", use_column_width=True)
+        st.image("App/dokum/4.jpg", use_container_width=True)
     with col19:
-        st.image("App/dokum/5.jpg", use_column_width=True)
+        st.image("App/dokum/5.jpg", use_container_width=True)
     with col20:
-        st.image("App/dokum/6.jpg", use_column_width=True)
+        st.image("App/dokum/6.jpg", use_container_width=True)
     with col21:
-        st.image("App/dokum/7.jpg", use_column_width=True)
+        st.image("App/dokum/7.jpg", use_container_width=True)
     with col22:
-        st.image("App/dokum/8.jpg", use_column_width=True)  
+        st.image("App/dokum/8.jpg", use_container_width=True)  
 
 elif page == "Education and Awards":
     # Education Page
@@ -96,19 +96,19 @@ elif page == "Education and Awards":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("App/Award/1.jpg", use_column_width=True)
+        st.image("App/Award/1.jpg", use_container_width=True)
     with col2:
-        st.image("App/Award/2.jpg", use_column_width=True)
+        st.image("App/Award/2.jpg", use_container_width=True)
     with col3:
-        st.image("App/Award/3.jpg", use_column_width=True)
+        st.image("App/Award/3.jpg", use_container_width=True)
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("App/Award/21.jpg", use_column_width=True)
+        st.image("App/Award/21.jpg", use_container_width=True)
     with col2:
-        st.image("App/Award/22.jpg", use_column_width=True)
+        st.image("App/Award/22.jpg", use_container_width=True)
     with col3:
-        st.image("App/Award/23.jpg", use_column_width=True)
+        st.image("App/Award/23.jpg", use_container_width=True)
 
 
 
@@ -196,7 +196,7 @@ elif page == "Projects":
     col7, col8 = st.columns(2)
 
     with col1:
-      st.image("App/image/LSTM.jpg", use_column_width=True)
+      st.image("App/image/LSTM.jpg", use_container_width=True)
       st.markdown("[Stock Analysis](https://github.com/adeliiee22/Projects/tree/main/Stocks%20Analysis%20LSTM)", unsafe_allow_html=True)
       st.markdown("""
       - Utilized the Long Short-Term Memory (LSTM) technique to predict stock price trends, training the model with data sourced from Yahoo Finance to ensure accurate forecasts.
@@ -205,7 +205,7 @@ elif page == "Projects":
 
 
     with col2:
-        st.image("App/image/telecom.jpg", use_column_width=True)
+        st.image("App/image/telecom.jpg", use_container_width=True)
         st.markdown("[Churn](https://github.com/adeliiee22/Projects/tree/main/Telecom%20Churn)", unsafe_allow_html=True)
         st.markdown("""
         - Developed a predictive model using logistic regression in PySpark to analyze and predict customer churn for a telecommunications company.
@@ -213,7 +213,7 @@ elif page == "Projects":
         """)
 
     with col3:
-        st.image("App/image/Chest.jpg", use_column_width=True)
+        st.image("App/image/Chest.jpg", use_container_width=True)
         st.markdown("[Chest Cancer Detection](https://github.com/adeliiee22/Projects/tree/main/Chest%20Cancer%20Detection/Notebook)", unsafe_allow_html=True)
         st.markdown("""
         - Utilized the Kaggle Chest CT-Scan Dataset to detect chest cancer from CT scan images using Functional API and Transfer Learning techniques.
@@ -222,7 +222,7 @@ elif page == "Projects":
         """)
 
     with col4:
-        st.image("App/image/Perpus.jpg", use_column_width=True)
+        st.image("App/image/Perpus.jpg", use_container_width=True)
         st.markdown("[Perpus UIN WebApp](http://158.178.244.40/)", unsafe_allow_html=True)
         st.markdown("""
         - Developed a library management web application using the Laravel framework, hosted on an always-free VM instance on Oracle Cloud to ensure cost-effective scalability.
@@ -230,7 +230,7 @@ elif page == "Projects":
         """)
 
     with col5:
-        st.image("App/image/Fraud.jpg", use_column_width=True)
+        st.image("App/image/Fraud.jpg", use_container_width=True)
         st.markdown("[Credit Card Fraud Detection](https://github.com/adeliiee22/Projects/tree/main/Credit%20card%20fraud%20detection/Notebook)", unsafe_allow_html=True)
         st.markdown("""
         - Created a credit card fraud detection implementation using PySpark, leveraging StandardScaler and VectorAssembler to preprocess data for machine learning.
@@ -238,7 +238,7 @@ elif page == "Projects":
         """)
 
     with col6:
-        st.image("App/image/EHR.jpg", use_column_width=True)
+        st.image("App/image/EHR.jpg", use_container_width=True)
         st.markdown("[REKMED EHR Mobile App](https://github.com/adeliiee22/EHR-REKMED)", unsafe_allow_html=True)
         st.markdown("""
         - Engineered effective methods for storing and managing medical data by creating a fully functional mobile app using the Flutter framework, emphasizing on product development.
@@ -246,7 +246,7 @@ elif page == "Projects":
         """)
 
     with col7:
-        st.image("App/image/Frequent.jpg", use_column_width=True)
+        st.image("App/image/Frequent.jpg", use_container_width=True)
         st.markdown("[Frequent Sequence Mining](https://github.com/adeliiee22/Projects/tree/main/Frequent%20Sequence%20Mining)", unsafe_allow_html=True)
         st.markdown("""
         - Utilized PySpark to generate all frequent itemsets from a dataset with a minimum support threshold of 70%, ensuring comprehensive identification of frequent patterns.
