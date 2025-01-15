@@ -64,7 +64,7 @@ elif page == "Education and Awards":
     """, unsafe_allow_html=True)
 
     # GPA
-    st.markdown("- GPA: `3.57`")
+    st.markdown("- GPA: `3.66`")
 
     # Create columns for Elective Courses
     col1, col2 = st.columns(2)
@@ -126,7 +126,7 @@ elif page == "Work Experience":
 
     txt('**Data Engineer Intern**, BFI Finance', '*Sep 2024 - Present*')
     st.markdown('''
-    - Developed an automated data pipeline using Luigi and Airflow to extract and process 1B+ financial records for credit risk operations to optimize performance and scalability.
+    - Developed an automated data pipeline job using Airflow and deploying it on an AWS instance to extract and process financial records for credit risk operations to optimize performance and scalability.
     - Designed and deployed a data modelling web app with Streamlit, FastAPI, Docker, and Postman to test systems and generate reports, ensuring real-time integration between front-end and back-end systems.
     - Extracted and transformed large datasets on Alibaba Cloud using SQL and PySpark, handling credit risk and KPI analysis to support daily business and risk management operations.
     ''')
