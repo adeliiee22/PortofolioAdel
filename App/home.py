@@ -19,7 +19,7 @@ if page == "Home":
         </h1>''', unsafe_allow_html=True)
 
       
-    st.write("A Computer Science student at Universitas Gadjah Mada with a passion for transforming raw data into actionable insights. Skilled in Python, Spark, and SQL, with experience in cloud database platforms such as MongoDB, Oracle, Alibaba Cloud and Firebase. Specializes in tackling big data challenges, optimizing workflows, and creating scalable solutions to enhance business operations. Always eager to learn more and grow!")
+    st.write("inal-year Computer Science student at Universitas Gadjah Mada with a strong passion for data engineering and data governance. Experienced in managing big data across the finance, consulting, and logistics sectors. Skilled in Python, SQL, Spark, Docker, Airflow, and cloud computing services, with hands-on experience implementing CI/CD pipelines for scalable data products. Always eager to learn more and grow!")
 
     # Creating three columns for the images and titles
     col11, col12, col13, col14 = st.columns(4)
