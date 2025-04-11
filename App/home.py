@@ -124,7 +124,7 @@ elif page == "Work Experience":
         with col2:
             st.markdown(b)
 
-    5txt('**Data Engineer Intern**, BFI Finance', '*March 2024 - Present*')
+    txt('**Data Quality Engineer Intern**, DANA Indonesia', '*March 2024 - Present*')
     st.markdown('''
     - Enhanced data quality workflows using lazy evaluation and DAMA frameworks, integrating automated validation checks and test cases into pipelines to meet SLA and regulatory standards.
     - Collaborated with engineers and BI to review ingestion designs, monitor pipeline logic, and implement real-time alerting for data workflows in MaxCompute and Google Cloud Spanner.
