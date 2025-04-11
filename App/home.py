@@ -124,11 +124,18 @@ elif page == "Work Experience":
         with col2:
             st.markdown(b)
 
-    txt('**Data Engineer Intern**, BFI Finance', '*Sep 2024 - Present*')
+    5txt('**Data Engineer Intern**, BFI Finance', '*March 2024 - Present*')
     st.markdown('''
-    - Developed an automated data pipeline job using Airflow and deploying it on an AWS instance to extract and process financial records for credit risk operations to optimize performance and scalability.
+    - Enhanced data quality workflows using lazy evaluation and DAMA frameworks, integrating automated validation checks and test cases into pipelines to meet SLA and regulatory standards.
+    - Collaborated with engineers and BI to review ingestion designs, monitor pipeline logic, and implement real-time alerting for data workflows in MaxCompute and Google Cloud Spanner.
+    - Improved data governance and performance by optimizing cloud storage and data architecture, leveraging CPU metrics to maintain quality and efficiency.
+
+    ''')
+    txt('**Data Engineer Intern**, BFI Finance', '*Sep 2024 - February 2025*')
+    st.markdown('''
+    - Built CI/CD pipelines using Airflow to orchestrate data processing across SQL, Trino, PySpark, and Hive databases, applying chunking techniques to resolve Out-Of-Memory (OOM) issues and improve system efficiency. 
     - Designed and deployed a data modelling web app with Streamlit, FastAPI, Docker, and Postman to test systems and generate reports, ensuring real-time integration between front-end and back-end systems.
-    - Extracted and transformed large datasets on Alibaba Cloud using SQL and PySpark, handling credit risk and KPI analysis to support daily business and risk management operations.
+    - Collaborated with cross-functional teams to troubleshoot technical issues within data workflows and deliver scalable solutions that enhanced operational performance.
     ''')
     txt('**Data Engineer Intern**, Ucoal Resources', '*Aug 2024 - Sep 2024*')
     st.markdown('''
